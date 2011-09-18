@@ -8,6 +8,7 @@
   for ( $id = 1; $id <= $maxId; $id++ ) {
       $filenames[] = "http://animalzone.ru/articles2/{$id}/";
   }
+  
   foreach ( $filenames as $filename ) {
       echo $filename;
       
