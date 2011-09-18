@@ -9,6 +9,8 @@
       $filenames[] = "http://animalzone.ru/articles2/{$id}/";
   }
   
+  
+  
   foreach ( $filenames as $filename ) {
       echo $filename;
       
